@@ -61,7 +61,7 @@ img {
     width: 100%;
 }
 code {
-    background-color: rgb(25,25,25);
+    background-color: black;
     border: 1px solid;
     padding: 0.02rem;
     border-radius: 5px;
@@ -70,7 +70,7 @@ code {
   .navbar ul li a {
     text-decoration: none;
     text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.85);
+    color: white;
     font-size: 100%;
   }
   
@@ -130,12 +130,12 @@ h1 {
 }
 
 p a {
-  color: rgba(255, 255, 255, 0.85);
+  color: white);
   text-decoration: underline;
     font-weight: bold;
 }
 a {
-    color: rgba(255,255,255,.85);
+    color: white;
     text-decoration: none;
     transition: all .5s;
 }
@@ -178,13 +178,13 @@ a:hover {
      font-size: 16px;
      cursor: pointer;
      border-radius: 17px;
-     border: 1px solid rgba(255,255,255,.85);
+     border: 1px solid white);
      transition: all 0.3s;
 }
 
 .btn:hover{
-    color: rgba(255,255,255,.85);
-    background-color: rgb(31,32,34);
+    color: white;
+    background-color: black;
 }
 
  button {
