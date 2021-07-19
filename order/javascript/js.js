@@ -12,31 +12,6 @@ $('.navbar a').on('click', function (e) {
   }
 });
 
-// typed.js
-
-const options = {
-  strings: ['New Garden ^1000', ' from Gloucester ^1000', ' a Cantonese and Chinese takeaway ^1000'],
-  typeSpeed: 100,
-  backSpeed: 75,
-  loop: true,
-};
-
-const typed = new Typed('#type', options);
-
-
-// form
-const inputs = document.querySelectorAll('input');
-
-inputs.forEach(el => {
-  el.addEventListener('blur', e => {
-    if(e.target.value) {
-      e.target.classList.add('dirty');
-    } else {
-      e.target.classList.remove('dirty');
-    }
-  })
-})
-
 
 // scroll show shadow
 const debounce = (fn) => {
