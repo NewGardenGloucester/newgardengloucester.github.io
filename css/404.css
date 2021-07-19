@@ -1,0 +1,16 @@
+body{
+    height: calc(100vh - 8em);
+    -ms-overflow-style: none;
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 3.5rem;
+    margin-top: 10%;
+    margin-bottom: 5rem;
+}
+
+.btn {
+    padding: 1rem;
+}
