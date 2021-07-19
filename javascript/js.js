@@ -16,8 +16,8 @@ $('.navbar a').on('click', function (e) {
 
 const options = {
   strings: ['New Garden ^1000', ' from Gloucester ^1000', ' a Cantonese and Chinese takeaway ^1000'],
-  typeSpeed: 450,
-  backSpeed: 500,
+  typeSpeed: 100,
+  backSpeed: 75,
   loop: true,
 };
 
