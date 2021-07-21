@@ -34,7 +34,8 @@ body{
     margin: 0;
     z-index: 1;
     width: 100%;
-    background-color: black;
+// grey navbar
+    background-color: rgb(66, 62, 62);
     transition: all 0.2s;
   }
 
