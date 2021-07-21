@@ -33,7 +33,7 @@ body{
     display: flex;
     margin: 100%;
     z-index: 1;
-    width: 10%;
+    width: 0;
     background-color: black;
     transition: all 0.2s;
   }
