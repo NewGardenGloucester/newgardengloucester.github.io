@@ -280,7 +280,7 @@ form {
 
 .closebtn {
     margin-left: 15px;
-    color: white;
+    color: aqua;
     font-weight: bold;
     float: right;
     font-size: 22px;
@@ -290,7 +290,7 @@ form {
 }
 
 .closebtn:hover {
-    color: orange;
+    color: black;
 }
 
 footer {
