@@ -31,9 +31,9 @@ body{
 .navbar {
     position: fixed;
     display: flex;
-    margin: 0;
+    margin: 10%;
     z-index: 1;
-    width: 100%;
+    width: 90%;
     background-color: rgb(31,32,34);
     transition: all 0.2s;
   }
