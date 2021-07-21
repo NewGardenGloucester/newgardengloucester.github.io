@@ -184,7 +184,7 @@ a:hover {
 }
 
 .btn:hover{
-    color: orange;
+    color: black;
     background-color: white;
 }
 
@@ -280,7 +280,7 @@ form {
 
 .closebtn {
     margin-left: 15px;
-    color: aqua;
+    color: white;
     font-weight: bold;
     float: right;
     font-size: 22px;
