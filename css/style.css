@@ -34,7 +34,7 @@ body{
     margin: 0;
     z-index: 1;
     width: 100%;
-    background-color: rgb(66, 62, 62);
+    background-color: black;
     transition: all 0.2s;
   }
 
