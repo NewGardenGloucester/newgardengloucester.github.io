@@ -36,6 +36,7 @@ body{
     height: 100%;
     background-color: rgb(31,32,34);
     transition: all 0.2s;
+    overflow: auto;
 }
 html:not([data-scroll='0']) .navbar {
     box-shadow: 10px 10px 10px 10px rgb(25, 25, 25);
