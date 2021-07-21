@@ -34,12 +34,12 @@ body{
     margin: 0;
     z-index: 1;
     width: 100%;
-    background-color: rgb(31,32,34);
+    background-color: black;
     transition: all 0.2s;
   }
 
 html:not([data-scroll='0']) .navbar {
-    box-shadow: 10px 10px 10px 10px rgb(25, 25, 25);
+    box-shadow: 10px 10px 10px 10px black;
 }
   
   .navbar ul {
