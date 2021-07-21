@@ -34,12 +34,12 @@ body{
     margin: 0;
     z-index: 1;
     width: 100%;
-    background-color: black;
+    background-color: rgb(31,32,34);
     transition: all 0.2s;
   }
 
 html:not([data-scroll='0']) .navbar {
-    box-shadow: 10px 10px 10px 10px black;
+    box-shadow: 10px 10px 10px 10px rgb(25, 25, 25);
 }
   
   .navbar ul {
@@ -50,6 +50,12 @@ html:not([data-scroll='0']) .navbar {
     justify-content: space-around;
     font-size: 1.5rem;
   }
+
+@media only screen and (max-width: 900px) {
+    .navbar ul {
+        font-size: 1rem;
+    }
+}
 
 img {
     width: 100%;
@@ -103,7 +109,7 @@ section p {
 
 h1 {
   margin-top: 80px;
-  font-colour: black;
+  font-colour: red;
     font-size: 4rem;
     text-align: center;
     position: relative;
@@ -178,7 +184,7 @@ a:hover {
 }
 
 .btn:hover{
-    color: aqua;
+    color: black;
     background-color: white;
 }
 
