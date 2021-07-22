@@ -38,7 +38,12 @@ body{
   position: fixed; 
   overflow: auto; 
 }
-
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
 html:not([data-scroll='0']) .navbar {
     box-shadow: 10px 10px 10px 10px rgb(25, 25, 25);
 }
