@@ -49,7 +49,7 @@ html:not([data-scroll='0']) .navbar {
 }
   
   .navbar ul {
-    display: flex;
+    display: block;
     list-style: none;
     width: 10%;
     padding: 0;
