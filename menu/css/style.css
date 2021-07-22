@@ -57,7 +57,7 @@ html:not([data-scroll='0']) .navbar {
     font-size: 1.5rem;
   }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 200px) {
     .navbar ul {
         font-size: 1rem;
     }
