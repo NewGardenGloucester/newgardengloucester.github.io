@@ -32,7 +32,7 @@ body{
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 15%;
+  width: 20%;
   background-color: #8f8d8d;
   height: 100%; 
   position: fixed; 
@@ -51,7 +51,7 @@ html:not([data-scroll='0']) .navbar {
   .navbar ul {
     display: block;
     list-style: none;
-    width: 15%;
+    width: 20%;
     padding: 0;
     justify-content: space-around;
     font-size: 1.5rem;
