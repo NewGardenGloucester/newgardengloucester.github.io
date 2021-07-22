@@ -76,12 +76,12 @@ code {
   .navbar ul li a {
     text-decoration: none;
     text-transform: uppercase;
-    color: aqua;
+    color: black;
     font-size: 70%;
   }
   
   .navbar ul li a:hover {
-    color: white;
+    color: aqua;
   }
 
 .button-list ul li {
