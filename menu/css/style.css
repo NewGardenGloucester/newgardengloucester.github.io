@@ -46,7 +46,7 @@ html:not([data-scroll='0']) .navbar {
   .navbar ul {
     display: flex;
     list-style: none;
-    width: 100%;
+    width: 10%;
     padding: 0;
     justify-content: space-around;
     font-size: 1.5rem;
@@ -71,12 +71,12 @@ code {
   .navbar ul li a {
     text-decoration: none;
     text-transform: uppercase;
-    color: white;
+    color: aqua;
     font-size: 100%;
   }
   
   .navbar ul li a:hover {
-    color: aqua;
+    color: white;
   }
 
 .button-list ul li {
