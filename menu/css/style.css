@@ -33,7 +33,7 @@ body{
   margin: 0;
   padding: 0;
   width: 25%;
-  background-color: #bdb9b9;
+  background-color: #8f8d8d;
   height: 100%; /* Full height */
   position: fixed; /* Make it stick, even on scroll */
   overflow: auto; /* Enable scrolling if the sidenav has too much content */
