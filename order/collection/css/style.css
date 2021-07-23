@@ -218,13 +218,13 @@ form {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    background: white;
+    background: black;
     padding: 12px;
     border-radius: 3px;
     outline: none;
     font-size: 14px;
     width: 100%;
-    color: black;
+    color: white;
 }
 
 .contact_form textarea {
