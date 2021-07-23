@@ -12,13 +12,29 @@
   </head>
 <html>
   <form action="https://send.pageclip.co/tRsG4Azg3Gw1JmpRJse2oKnfumvswA5u" class="pageclip-form" method="post">
-  <input type="text" name="name" value="name" />
-  <input type="email" name="email" value="email" />
-  <input type="message" name="order" value="order" />
-  <button type="submit" class="pageclip-form__submit">
-    <span>Send</span>
-  </button>
-</form>
+  <label class="contact_form">
+
+                <input type="text" name="name" required/>
+                <span class="placeholder">Name</span>
+            </label>
+            <label class="contact_form">
+
+                <input type="email" name="email" required/>
+                <span class="placeholder">Email</span>
+            </label>
+            <label class="contact_form">
+                <textarea name="message" required></textarea>
+                <span class="placeholder">Order</span>
+            </label>
+            <button class="btn button pageclip-form__submit" type="submit">
+                <span>Submit</span>
+            </button>
+        </form>
+    </section>
+    <div id="alert">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+        Thank you, I will get back to you as soon as possible.
+    </div>
 <div class="button">
     <a href="/order/"><button class="btn"><i class=""></i> Order another way?</button></a><br />
 <div class="button">
